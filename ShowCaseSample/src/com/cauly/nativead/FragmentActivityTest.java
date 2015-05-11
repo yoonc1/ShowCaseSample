@@ -83,8 +83,8 @@ public class FragmentActivityTest extends FragmentActivity implements CaulyClose
 		mCloseAd.setAdInfo(closeAdInfo);
 		mCloseAd.setCloseAdListener(this); // CaulyCloseAdListener 등록
 		
-		 if (mTypeface == null)
-	            mTypeface = Typeface.createFromAsset(getAssets(), "font.ttf.mp3");
+//		 if (mTypeface == null)
+//	            mTypeface = Typeface.createFromAsset(getAssets(), "font.ttf.mp3");
 //	        ViewGroup root = (ViewGroup) findViewById(android.R.id.content);
 //	        setGlobalFont(root);
 		
