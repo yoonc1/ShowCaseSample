@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f5f3"
+    android:scrollbars="none"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f5f3"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="0px"
+            android:gravity="center"
+            android:text="CAULY NATIVE AD 주요 특징"
+            android:textColor="@color/infocolor1"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="APP의 특정 영역을 차지 하지 않고 컨텐츠 사이에 자연스럽게 삽입되는 신개념 광고 상품입니다."
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="APP 컨텐츠 맥락을 유지하여 사용자의 거부감을 줄이고 노출된 정보를 받아 들이게 하는 것이 특징입니다."
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="다양한 APP의 컨텐츠에 자연스럽게 녹아들기 위하여 아래와 같은 5가지 유형의 광고 소재가 필요합니다. "
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="310dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/table" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="광고 구성요소 "
+                        android:textColor="#ffffff"
+                        android:textSize="11dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="설명 "
+                        android:textColor="#ffffff"
+                        android:textSize="11dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="TITLE "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="광고 제목 "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table_line" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="SUBTITLE "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="광고 부제목 "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table_line" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="DESCRIPTION "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="광고 설명문구 "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table_line" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="23dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="ICON "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="정사각형 이미지 1장"
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="  214pxX214px"
+                        android:textColor="#222222"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/table_line" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="23dp"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="107dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="IMAGE "
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="직사각형 이미지  각1장"
+                        android:textColor="#222222"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:gravity="center_vertical"
+                    android:padding="0px"
+                    android:paddingLeft="0px"
+                    android:paddingRight="0px"
+                    android:text="가로형 720px X 480px 1장 "
+                    android:textColor="#222222"
+                    android:textSize="9dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:gravity="center_vertical"
+                    android:padding="0px"
+                    android:paddingLeft="0px"
+                    android:paddingRight="0px"
+                    android:text="세로형 480px X 720px 1장"
+                    android:textColor="#222222"
+                    android:textSize="9dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                      android:layout_marginLeft="23dp"
+                      android:layout_marginRight="23dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="7dp"
+                        android:layout_marginTop="3dp"
+                        android:src="@drawable/bullet_star" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="IMAGE는 APP에 사용될 이미지의 배율을 분석하여 자동으로 최적의 이미지를 송출 합니다.(4:3~2:1 비율까지 지원)"
+                        android:textColor="#ff7300"
+                        android:textSize="9dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                     android:layout_marginBottom="8dp"
+                     android:layout_marginLeft="23dp"
+                      android:layout_marginRight="23dp"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="6dp"
+                        android:layout_height="7dp"
+                        android:layout_marginTop="3dp"
+                        android:src="@drawable/bullet_star" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:padding="0px"
+                        android:paddingLeft="0px"
+                        android:paddingRight="0px"
+                        android:text="APP의 컨텐츠에 따라 광고구성요소는 각기 다른 조합으로 노출될 수 있습니다."
+                        android:textColor="#ff7300"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="5가지의 광고 구성요소가 APP의 컨텐츠 영역에 자연스럽게 광고 노출됩니다. "
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+<!--         <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="APP의 컨텐츠 성격과 유사한 광고를 우선 송출함으로서 구매전환에 도달 될 확률이 높습니다(지원예정) "
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+ -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_line" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="클릭시 과금되는 Cost per Click 상품입니다.  "
+                android:textColor="#222222"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/go_cauly"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="21dp"
+            android:src="@drawable/cauly_url" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="12dp" />
+    </LinearLayout>
+
+</ScrollView>

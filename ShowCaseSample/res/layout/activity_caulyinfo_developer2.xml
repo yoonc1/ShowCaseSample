@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f7f5f3"
+    android:scrollbars="none"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#f7f5f3"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="Cauly Native Ads 주요 특징"
+                android:textColor="@color/infocolor1"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/go_first"
+                android:layout_width="78dp"
+                android:layout_height="21dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/left" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/step1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+              android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="0px"
+            android:text="@string/info_underline1"
+            android:textColor="#222222"
+            android:textSize="9dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+              android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_star" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="카울리 광고주센터 가입 및 네이티브AD 앱등록 필수"
+                android:textColor="#ff7300"
+                android:textSize="9dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/step2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+              android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="0px"
+            android:text="@string/info_underline2"
+            android:textColor="#222222"
+            android:textSize="9dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+              android:layout_gravity="center"
+            android:layout_marginTop="11dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="6dp"
+                android:layout_height="7dp"
+                android:layout_marginTop="3dp"
+                android:src="@drawable/bullet_star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="0px"
+                android:paddingLeft="0px"
+                android:paddingRight="0px"
+                android:text="최소 1개의 광고구성요소가 노출될 수 있도록 구성하시면 됩니다."
+                android:textColor="#ff7300"
+                android:textSize="9dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/step3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+              android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:padding="0px"
+            android:paddingLeft="0px"
+            android:paddingRight="0px"
+            android:text="@string/info_underline3"
+            android:textColor="#222222"
+            android:textSize="9dp" />
+
+        <ImageView
+            android:id="@+id/go_cauly"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="61dp"
+            android:src="@drawable/cauly_url" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="12dp" />
+    </LinearLayout>
+
+</ScrollView>

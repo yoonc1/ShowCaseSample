@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#242736"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="69dp"
+         android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:src="@drawable/logo" />
+    
+     <ImageView
+         android:id="@+id/showcase"
+         android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:src="@drawable/btn_showcase" />
+     
+      <ImageView
+          android:id="@+id/nativead"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+         android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/btn_nativead" />
+      
+
+</RelativeLayout>

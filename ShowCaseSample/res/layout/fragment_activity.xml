@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.app.FragmentTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EFEFEF" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#ffffff" >
+
+
+                    <ImageView
+                        android:layout_width="168dp"
+                        android:layout_height="16dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:background="@drawable/title"
+                       />
+
+                  <FrameLayout
+                        android:id="@+id/info"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="193dp"
+                        android:background="@drawable/tab06" />
+                   <FrameLayout
+                        android:id="@+id/inven"
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/tab05" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="#7a423f3d" />
+        </LinearLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#242736"
+            android:divider="@null" />
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@android:id/tabs"
+            android:layout_below="@id/title" >
+
+            <FrameLayout
+                android:id="@+id/tab_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+            <FrameLayout
+                android:id="@+id/tab_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/tab_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white" />
+
+            <FrameLayout
+                android:id="@+id/tab_4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/white" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</android.support.v4.app.FragmentTabHost>

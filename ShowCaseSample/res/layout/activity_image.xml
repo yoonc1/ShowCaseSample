@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#dedcd9"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/ad1"
+            android:layout_width="fill_parent"
+            android:layout_height="190dp"
+            android:layout_margin="8dp" >
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#f2f2f2"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:text="연예 많이 본 뉴스"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/list_num_01" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="이영돈 PD가 간다, 그릭요거트 2주간 직접 체험  ..."
+                android:textColor="#080808"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/list_num_02" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="민아, &apos;섹시한 쩍벌 댄스&apos;"
+                android:textColor="#080808"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/list_num_03" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="이천희 전혜진 집공개, 300평 럭셔리 대저택에 입주  ..."
+                android:textColor="#080808"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/list_num_04" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="김자옥 아들 결혼식, 오승근 빈 옆자리에  ..."
+                android:textColor="#080808"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/list_num_05" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="37dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="신현숙 손석희 문지애 전종환, 아나운서 부부 &apos;평행..."
+                android:textColor="#080808"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="167dp"
+            android:layout_margin="8dp"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <RelativeLayout
+                android:layout_width="167dp"
+                android:layout_height="167dp" >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/sqare_content" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="27dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#aa000000"
+                    android:gravity="center"
+                    android:text="홍채 인증으로 현금인출..."
+                    android:textColor="#e5e5e5"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="167dp"
+                android:layout_height="167dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/ad2"
+                >
+            </RelativeLayout>
+        </RelativeLayout>
+        
+          <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="근로자 59% , 세액공제 -> 소득공제 환원해야"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+           <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="독도 과거사 청산 방식 접근... 제3국 시각서 해법 찾아야"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+            <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="전쟁훈련 때문에 이산가족 못 만나... 10일간 테러계획"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+             <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="美대사 '살인미수' 혐의 영장... 국보법 위반 수사"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+              <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="고위당청정 첫 회동...'국정 큰농사 잘지어야'"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+               <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="유부녀들 '내 남편 지킨다'며 하루 4시간씩..."
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+                <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:gravity="center_vertical"
+            android:text="朴대통령, UAE서 보건 의료 세일즈외교 집중"
+            android:textColor="#080808"
+            android:textSize="14sp"
+            />
+                 <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="8dp"
+            />
+    </LinearLayout>
+
+</ScrollView>
