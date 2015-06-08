@@ -1,16 +1,14 @@
 package com.cauly.nativead;
 
-import com.fsn.cauly.CaulyAdInfo;
-import com.fsn.cauly.CaulyAdInfoBuilder;
-import com.fsn.cauly.CaulyInterstitialAd;
-import com.fsn.cauly.CaulyInterstitialAdListener;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.webkit.WebView;
+
+import com.fsn.cauly.CaulyInterstitialAd;
+import com.fsn.cauly.CaulyInterstitialAdListener;
 
 public class IntroActivity extends Activity implements CaulyInterstitialAdListener {
 	
@@ -21,7 +19,6 @@ public class IntroActivity extends Activity implements CaulyInterstitialAdListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intro);
         View showcase = findViewById(R.id.showcase);
-        
         
 //        CaulyAdInfo adInfo = new CaulyAdInfoBuilder("sOdz2T6Z").build();
 //        CaulyInterstitialAd interstial = new CaulyInterstitialAd();
@@ -37,6 +34,8 @@ public class IntroActivity extends Activity implements CaulyInterstitialAdListen
         nativead.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
 				startActivity(new Intent(IntroActivity.this, FragmentActivityTest.class));
+//				startActivity(new Intent(IntroActivity.this, MainActivity.class));
+				
 			}
 		});
     }

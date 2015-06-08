@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.fsn.cauly.CaulyAdInfo;
@@ -21,7 +20,7 @@ import com.fsn.cauly.CaulyNativeAdViewListener;
 
 public class ListActivity extends Fragment implements CaulyNativeAdViewListener  {
 
-	String APP_CODE="vZxEr8bK";//"gatester";  // your app code which you are assigned.
+	String APP_CODE="mBZgr3Ch";//"gatester";  // your app code which you are assigned.
 	CaulyNativeAdHelper helper =null;
 	ArrayList<Item> mList ;
 	String[] TITLE = {"빈폴 2014 S/S시즌오프 UP TO 30%+10%...","화제의 텀블러 리버스 보틀/전용파우치","제이에스티나 외 쥬얼리& 시계 여름아이템 ~ 50% OFF",
@@ -105,7 +104,11 @@ public class ListActivity extends Fragment implements CaulyNativeAdViewListener 
 		interstial.setAdViewListener(this);
 		interstial.request();
 	}
-	
+	@Override
+	public void onDestroyView() {
+		super.onDestroyView();
+		helper.destroy();
+	}
 	class ListAdapter extends BaseAdapter 
 	{
 		public ListAdapter()

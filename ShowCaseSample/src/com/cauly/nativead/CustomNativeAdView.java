@@ -1,12 +1,9 @@
 package com.cauly.nativead;
 
 import android.content.Context;
-import android.text.TextUtils;
 import android.widget.Toast;
 
-import com.fsn.cauly.CaulyAdView;
 import com.fsn.cauly.CaulyNativeAdView;
-import com.fsn.cauly.CaulyNativeAdViewListener;
 
 public class CustomNativeAdView extends CaulyNativeAdView  {
 

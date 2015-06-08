@@ -16,7 +16,7 @@ import com.fsn.cauly.CaulyNativeAdViewListener;
 
 public class ImageActivity extends Fragment implements CaulyNativeAdViewListener  {
 
-	String APP_CODE="kAOTBXsJ";//"gatester";  // your app code which you are assigned.
+	String APP_CODE="mBZgr3Ch";//"gatester";  // your app code which you are assigned.
 	RelativeLayout ad1, ad2;
 	CaulyNativeAdView adView1, adView2;
 	@Override
@@ -61,6 +61,7 @@ public class ImageActivity extends Fragment implements CaulyNativeAdViewListener
 		.titleID(R.id.title)
 		.mainImageOrientation(Orientation.LANDSCAPE)
 		.sponsorPosition(R.id.sponsor, Direction.CENTER)
+		.adRatio("300x300")
 		.build();
 		if(adView2!=null)
 			adView2.destroy();
@@ -71,7 +72,14 @@ public class ImageActivity extends Fragment implements CaulyNativeAdViewListener
 		adView2.request();
 		ad2.addView(adView2);
 	}
-
+	@Override
+	public void onDestroyView() {
+		super.onDestroyView();
+		if(adView1!=null)
+			adView1.destroy();
+		if(adView2!=null)
+			adView2.destroy();
+	}
 
 	@Override
 	public void onDestroy() {

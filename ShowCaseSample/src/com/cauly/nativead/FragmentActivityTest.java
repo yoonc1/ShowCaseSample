@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTabHost;
 import android.util.DisplayMetrics;
-import android.util.TypedValue;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -28,7 +27,7 @@ import com.fsn.cauly.CaulyCloseAdListener;
  */
 public class FragmentActivityTest extends FragmentActivity implements CaulyCloseAdListener{
     private FragmentTabHost mTabHost;
-	private static final String APP_CODE = "vZxEr8bK"; // 광고 요청을 위한 App Code
+	private static final String APP_CODE = "mBZgr3Ch"; // 광고 요청을 위한 App Code
 	CaulyCloseAd mCloseAd ;;                            // CloseAd광고 객체
 	LinearLayout titleLayout;
 	Typeface mTypeface;
@@ -83,8 +82,8 @@ public class FragmentActivityTest extends FragmentActivity implements CaulyClose
 		mCloseAd.setAdInfo(closeAdInfo);
 		mCloseAd.setCloseAdListener(this); // CaulyCloseAdListener 등록
 		
-//		 if (mTypeface == null)
-//	            mTypeface = Typeface.createFromAsset(getAssets(), "font.ttf.mp3");
+		 if (mTypeface == null)
+	            mTypeface = Typeface.createFromAsset(getAssets(), "font.ttf.mp3");
 //	        ViewGroup root = (ViewGroup) findViewById(android.R.id.content);
 //	        setGlobalFont(root);
 		
@@ -95,7 +94,7 @@ public class FragmentActivityTest extends FragmentActivity implements CaulyClose
     	view.setImageDrawable(getResources().getDrawable(id));
     	DisplayMetrics dm = new DisplayMetrics();
     	getWindowManager().getDefaultDisplay().getMetrics(dm);
-    	view.setPadding((int)(5*dm.density), (int)(1*dm.density), (int)(5*dm.density), (int)(5*dm.density));
+    	view.setPadding((int)(5*dm.density), (int)(5*dm.density), (int)(5*dm.density), (int)(5*dm.density));
     	return view;
     } 
     

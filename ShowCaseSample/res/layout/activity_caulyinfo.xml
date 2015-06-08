@@ -57,6 +57,7 @@
                     android:paddingLeft="0px"
                     android:paddingRight="0px"
                     android:text="Advertiser"
+                    android:textColor="@drawable/infocolor1"
                     android:textSize="15dp" />
             </LinearLayout>
         </RelativeLayout>

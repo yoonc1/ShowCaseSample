@@ -25,7 +25,7 @@ import com.fsn.cauly.CaulyNativeAdView;
 
 public class ViewPagerCustomAdManager2 
 {
-	static final String APP_CODE = "PfiLgnYX";  //AppCode 설정.
+	static final String APP_CODE = "x8RwOVci";  //AppCode 설정.
 	static ViewPagerCustomAdManager2 sManager = null;
 	int positionInListView;
 	CaulyCustomAd adview ;

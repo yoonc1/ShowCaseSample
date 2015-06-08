@@ -26,7 +26,7 @@ import com.fsn.cauly.CaulyNativeAdView;
 
 public class ViewPagerCustomAdManager 
 {
-	static final String APP_CODE = "PfiLgnYX";  //AppCode 설정.
+	static final String APP_CODE = "x8RwOVci";  //AppCode 설정.
 	static ViewPagerCustomAdManager sManager = null;
 	static HashMap<Integer, RelativeLayout> mViewMap;
 	static HashMap<Integer,CaulyCustomAd> mAdMap;
@@ -91,7 +91,7 @@ public class ViewPagerCustomAdManager
 		mContext = context;
 		mViewMap.put(positionInListView, new RelativeLayout(context));
 		CaulyAdInfo adInfo = new CaulyNativeAdInfoBuilder(APP_CODE)
-		.layoutID(R.layout.activity_native_cardlistview)
+		.layoutID(R.layout.activity_native_cardlistview2)
 		.mainImageID(R.id.image)
 		.titleID(R.id.title)
 		.subtitleID(R.id.subtitle)
@@ -135,8 +135,8 @@ public class ViewPagerCustomAdManager
 					});
 					mViewPager.setClipToPadding(false);
 					mViewPager.setPageMargin(dpToPx(10));
-					mViewPager.setPadding(dpToPx(26),0,dpToPx(26),0);
-					mViewPager.setLayoutParams(new AbsListView.LayoutParams(LayoutParams.FILL_PARENT,dpToPx(300)));
+					mViewPager.setPadding(dpToPx(23),0,dpToPx(23),0);
+					mViewPager.setLayoutParams(new AbsListView.LayoutParams(LayoutParams.FILL_PARENT,dpToPx(320)));
 					mViewPager.setAdapter(mCustomPagerAdapter);
 					mViewMap.get((Integer)positionInListView).addView(mViewPager);
 					mAdMap.put((Integer)positionInListView, adview);

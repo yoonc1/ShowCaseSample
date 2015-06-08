@@ -5,10 +5,9 @@ import java.util.ArrayList;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +17,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.VideoView;
 
 import com.fsn.cauly.CaulyAdInfo;
 import com.fsn.cauly.CaulyNativeAdHelper;
@@ -28,7 +26,7 @@ import com.fsn.cauly.CaulyNativeAdViewListener;
 
 public class CardActivity extends Fragment implements CaulyNativeAdViewListener  {
 
-	String APP_CODE="vZxEr8bK";//"gatester";  // your app code which you are assigned.
+	String APP_CODE="mBZgr3Ch";//"gatester";  // your app code which you are assigned.
 	String[] TITLE = {"블루 & 그레이 톤의 북유럽 인테리어"
 			,"인더스트리얼 카페 Nomad 디자인","닮고싶은 핀란드 아파트 인테리어 - 봄봄이와 하루님의 홈스타일",
 			"맷돌순두부 by 잭슨카멜레온","PAS쟁이x팀버랜드 이벤트"};
@@ -123,10 +121,19 @@ public class CardActivity extends Fragment implements CaulyNativeAdViewListener 
 		interstial.request();
 
 	}
+	
+	
+	@Override
+	public void onDestroyView() {
+		mList.remove(r);
+		helper.destroy();
+		super.onDestroyView();
+		
+	}
 	@Override
 	public void onDestroy() {
 		super.onDestroy();
-		helper.destroy();
+		
 	}
 	class ListAdapter extends BaseAdapter 
 	{
@@ -174,9 +181,10 @@ public class CardActivity extends Fragment implements CaulyNativeAdViewListener 
 				ani.setDuration(1500);
 				View view = helper.getView(viewGroup,position, convertView);
 				View AdBackimage = view.findViewById(R.id.AdBackimage);
-				AdBackimage.setBackgroundColor(Color.parseColor("yellow"));
-				View image = view.findViewById(R.id.image);
-				image.startAnimation(ani);
+				AdBackimage.setVisibility(View.INVISIBLE);
+//				AdBackimage.setBackgroundColor(Color.parseColor("yellow"));
+//				View image = view.findViewById(R.id.image);
+//				image.startAnimation(ani);
 				return view;
 			}
 //			if(getItemViewType(position)==0)
@@ -193,7 +201,6 @@ public class CardActivity extends Fragment implements CaulyNativeAdViewListener 
 				TextView description = (TextView) view.findViewById(R.id.description);
 				ImageView icon = (ImageView) view.findViewById(R.id.icon);
 				ImageView image = (ImageView) view.findViewById(R.id.image);
-				
 				title.setText(getItem(position).title);
 				subtitle.setText(getItem(position).subTitle);
 				description.setText(getItem(position).description);

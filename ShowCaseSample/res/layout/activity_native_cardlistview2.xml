@@ -7,9 +7,7 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"  
-        android:layout_marginLeft="15dp"
-         android:layout_marginRight="15dp"
-        android:layout_height="300dp"  >
+        android:layout_height="320dp"  >
          <ImageView   android:layout_width="fill_parent" android:scaleType="fitXY"
              android:src="@drawable/cardview_bg"
             android:layout_height="fill_parent"/>
@@ -19,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="82dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:lines="1"
             android:textColor="#000000"
             android:textSize="17dp" />
@@ -30,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="82dp"
             android:layout_marginRight="10dp"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="44dp"
             android:lines="2"
             android:textColor="#8a837e"
             android:textSize="11dp" />
@@ -41,7 +39,7 @@
             android:layout_height="60dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp" />
-        
+
         <TextView
             android:id="@+id/description"
             android:layout_width="fill_parent"
@@ -54,21 +52,31 @@
             android:textColor="#000000"
             android:textSize="14dp" />
 
-        <ImageView
-            android:id="@+id/image"
+          <ImageView
+                android:id="@+id/AdBackimage"
             android:layout_width="fill_parent"
             android:layout_height="163dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:scaleType="fitXY"
             android:layout_marginTop="129dp" />
-        
-         <ImageView
-            android:id="@+id/sponsor"
-            android:layout_width="27dp"
-            android:layout_height="27dp"
+       <ImageView
+            android:id="@+id/image"
+            android:layout_width="400dp"
+            android:layout_height="163dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="129dp" />
+            android:layout_marginRight="10dp"
+            
+            android:layout_marginTop="120dp" />
+      
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+              android:layout_marginRight="15dp"
+               android:layout_marginTop="4dp"
+            android:textColor="#999999"
+            android:text="sponsor"
+            android:textSize="11dp" />
     </RelativeLayout>
 
 </RelativeLayout>
